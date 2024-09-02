@@ -1,0 +1,123 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment Score Instructions</title>
+</head>
+<body>
+
+    <section id="task">
+        <h2>Task:</h2>
+        <p>
+            Your task is to see how well internship applicants align with a specific job. I will be sending you different student profiles (which include essays, resumes, and other information about the student), and job descriptions. You will compute an alignment score between the student profile and the job description. The alignment will be broken down into four categories:
+        </p>
+        <ol>
+            <li><b>Company and Industry Alignment</b></li>
+            <li><b>Job Role and Responsibilities vs. Applicant Experience</b></li>
+            <li><b>Education, Technical Skills, and Tools</b></li>
+            <li><b>Values, perks, development opportunities, and Company Culture Alignment</b></li>
+        </ol>
+    </section>
+
+    <section id="alignment-score-notes">
+        <h3>Alignment Score Notes:</h3>
+        <ul>
+            <li>You will also calculate the overall similarity score by averaging the alignment scores from each category.</li>
+        </ul>
+    </section>
+
+    <section id="referencing-notes">
+        <h3>Referencing Notes:</h3>
+        <p>
+            When analyzing the alignment between the job description and the student profile, reference the line numbers from which the information is taken.
+            <br>
+            Use the following format for referencing:
+            <ul>
+                <li>For information from the student profile, label it as <b>(SP line #)</b>.</li>
+                <li>For information from the job description, label it as <b>(JD line #)</b>.</li>
+            </ul>
+        </p>
+        <p><b>Examples of referencing:</b></p>
+        <ul>
+            <li>
+                If a student profile on line 5 states, "5. I am good with SQL," and the job description on line 17 mentions, "17. We need someone who knows SQL":
+                <br><br>
+                <i>Output:</i> "The student's knowledge of SQL <b>(SP line 5)</b> aligns well with the job's requirement for someone skilled in this area <b>(JD line 17)</b>."
+            </li>
+            <br>
+            <li>
+                If a student profile expresses a strong preference for working in the beauty industry, saying on line 3, "3. I really only want to work in the beauty industry," and the job description indicates the job is in the accounting industry on line 19 by stating, "19. This job is in the accounting industry.":
+                <br><br>
+                <i>Output:</i> "The student's desire to work in the beauty industry <b>(SP line 3)</b> does not align with the job's focus on the accounting industry <b>(JD line 19)</b>."
+            </li>
+        </ul>
+    </section>
+
+    <section id="additional-notes">
+        <h3>Additional Notes:</h3>
+        <ul>
+            <li>It is EXTREMELY important to adhere to the format provided under 'Expected Output:'.</li>
+            <li>Do not include any additional explanations or words in the output beyond what is outlined under 'Expected Output:'.</li>
+            <li>
+                All outputs should be in plain text without using any special formatting, such as HTML, Markdown, LaTeX, or any other formatting tags. Your output should be in plain text, following the formatting outlined under 'Expected Output:'.
+            </li>
+            <li>Do not use any bold text (i.e. <b>bold</b>) or formatted headers.</li>
+        </ul>
+    </section>
+
+    <section id="expected-output">
+        <h3>Expected Output:</h3>
+        <p><b>Student Name:</b> [Student Name Goes Here]</p>
+
+        <h4>Category Breakdown</h4>
+        <p>
+            <b>Company and Industry Alignment:</b><br>
+            - Job Description: [Briefly describe the industry focus and mission of the company.]<br>
+            - Applicant: [Briefly describe the applicant's industry interests and aspirations.]<br>
+            - Summary of Alignment: [Provide a concise summary of how well the applicant's interests align with the company's industry and mission.]<br>
+            - Alignment Score: X.0/10
+        </p>
+        <br>
+        <p>
+            <b>Job Role and Responsibilities vs. Applicant Experience:</b><br>
+            - Job Description: [Outline the key responsibilities and roles in the job description.]<br>
+            - Applicant: [Summarize the applicant's relevant experience and past roles.]<br>
+            - Summary of Alignment: [Provide a summary of how well the applicant's experience matches the job responsibilities.]<br>
+            - Alignment Score: X.0/10
+        </p>
+        <br>
+        <p>
+            <b>Education, Skills, and Tools:</b><br>
+            - Job Description: [List the required and preferred skills and tools needed for the job.]<br>
+            - Applicant: [Highlight the applicant's education and skill set.]<br>
+            - Summary of Alignment: [Provide a summary of how well the applicant's skills match the job requirements.]<br>
+            - Alignment Score: X.0/10
+        </p>
+        <br>
+        <p>
+            <b>Values, perks, development opportunities, and Company Culture Alignment:</b><br>
+            - Job Description: [Highlight the company's values, perks, culture, and development opportunities.]<br>
+            - Applicant: [Describe the applicant's values and what they seek in company culture and benefits.]<br>
+            - Summary of Alignment: [Provide a summary of how well the applicant aligns with the company.]<br>
+            - Alignment Score: X.0/10
+        </p>
+
+        <h4>Overall Alignment Score:</h4>
+        <p>[Overall Alignment Score Calculations Go Here] =  X.X/10</p>
+
+        <h4>Conclusion:</h4>
+        <p>[Provide a brief conclusion summarizing the overall alignment between the applicant and the job, highlighting key strengths and areas where alignment is lacking. This should help gauge whether the applicant would be a good fit for the role.]</p>
+
+        <h4>Alignment Scores Summary:</h4>
+        <p>
+            Company and Industry Alignment Score: X.0/10<br>
+            Job Role and Responsibilities vs. Applicant Experience Score: X.0/10<br>
+            Education, Technical Skills, and Tools: X.0/10<br>
+            Values, perks, development opportunities, and Company Culture Alignment: X.0/10<br>
+            Overall Alignment Score: X.X/10
+        </p>
+    </section>
+
+</body>
+</html>
